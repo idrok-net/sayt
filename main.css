@@ -159,6 +159,10 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+.about .about-content ul{
+    list-style: none;
+    margin: 5px 0px;
+}
 
 section .title {
     position: relative;
@@ -194,7 +198,7 @@ section .title::after {
 /* malumot qismini boshlash */
 
 .about .title::after {
-    content: "men kimman";
+    content: "Bizning maqsadlar";
 }
 
 .about .about-content .left {
@@ -203,7 +207,7 @@ section .title::after {
 
 .about .about-content .left img {
     height: 400px;
-    width: 400px;
+    width: 500px;
     object-fit: cover;
     border-radius: 6px;
 }
@@ -256,18 +260,26 @@ section .title::after {
 }
 
 .services .title::after {
-    content: "men nima ta'minlayman";
+    content: "Biz o'rgatamiz";
     background: #111;
 }
-
+.services .serv-content{
+    vertical-align: text-top;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 .services .serv-content .card {
     background: #222;
-    width: calc(33% - 20px);
+    width: calc(25% - 20px);
     text-align: center;
-    padding: 20xp 25px;
+    height: 250px;
+    padding: 30xp 35px;
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-sizing: border-box;
 }
 
 .services .serv-content .card:hover {
@@ -301,7 +313,7 @@ section .title::after {
 /* konikmalar qismini boshlash */
 
 .skills .title::after {
-    content: "men bilgan narsalar";
+    content: "biz nima qilib beramiz";
 }
 
 .skills .skills-content .column {
@@ -368,7 +380,7 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 70%;
+    width: 100%;
 }
 
 .skills-content .right .css::before {
@@ -389,7 +401,7 @@ section .title::after {
 /* guruh qismini boshlash */
 
 .teams .title::after {
-    content: "kim men bilan";
+    content: "bitirganlar";
     background: #111;
 }
 
@@ -596,7 +608,7 @@ footer span a:hover {
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
-        width: 350px;
+        width: 400px;
     }
 }
 
