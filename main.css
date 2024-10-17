@@ -198,7 +198,7 @@ section .title::after {
 /* malumot qismini boshlash */
 
 .about .title::after {
-    content: "Bizning maqsadlar";
+    content: "Biz kimmiz?";
 }
 
 .about .about-content .left {
@@ -313,7 +313,7 @@ section .title::after {
 /* konikmalar qismini boshlash */
 
 .skills .title::after {
-    content: "biz nima qilib beramiz";
+    content: "hunarlarimiz";
 }
 
 .skills .skills-content .column {
@@ -474,7 +474,7 @@ section .title::after {
 /* boglaniw qismi */
 
 .contact .title::after {
-    content: "bog'lanish uchun";
+    content: "aloqa";
 }
 
 .contact .contact-content .column {
@@ -607,8 +607,8 @@ footer span a:hover {
 
 @media (max-width: 1104px) {
     .about .about-content .left img {
-        height: 350px;
-        width: 400px;
+        height: 300px;
+        width: 350px;
     }
 }
 
